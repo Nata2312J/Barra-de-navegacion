@@ -1,0 +1,55 @@
+header{
+    background-color: powderblue;
+    color: aquamarine;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+  list-style:georgian;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right:20px;
+}
+
+nav a {
+  color: #15746f;
+  text-decoration:none;
+  padding: 5px;
+}
+nav a:hover {
+  color: #baf3ec;
+}
+
+@media (max-witdh:767px) {
+  harder {
+background-color:black; 
+  }
+}
+
+@media (max-witdh:767px){
+nav{
+  font-size: 16px;
+  }
+} 
+
+@media (min-width:1200px) {
+  header{
+      width: 1200px;
+  }
+}
+
+#titulo { 
+  color: darkcyan;
+  font-family: 'Times New Roman', Times, serif;
+} 
+
+#contacto {
+  color: rgb(100, 148, 237);
+  font-family:'Courier New', Courier, monospace ;
+}
+
